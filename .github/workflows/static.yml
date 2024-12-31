@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的超連結網站</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+
+        .link-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .link-list li {
+            margin: 0.5rem 0;
+        }
+
+        .link-list a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .link-list a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>我的網站</h1>
+    </header>
+
+    <nav>
+        <a href="#section1">部分 1</a>
+        <a href="#section2">部分 2</a>
+        <a href="#section3">部分 3</a>
+    </nav>
+
+    <main>
+        <section id="section1">
+            <h2>部分 1</h2>
+            <ul class="link-list">
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+            </ul>
+        </section>
+
+        <section id="section2">
+            <h2>部分 2</h2>
+            <ul class="link-list">
+                <li><a href="https://www.wikipedia.org" target="_blank">維基百科</a></li>
+                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </section>
+
+        <section id="section3">
+            <h2>部分 3</h2>
+            <ul class="link-list">
+                <li><a href="https://www.amazon.com" target="_blank">Amazon</a></li>
+                <li><a href="https://www.tmall.com" target="_blank">天貓</a></li>
+                <li><a href="https://www.taobao.com" target="_blank">淘寶</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 我的網站. 保留所有權利。</p>
+    </footer>
+</body>
+</html>
